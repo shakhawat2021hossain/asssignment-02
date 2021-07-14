@@ -46,7 +46,7 @@ top banner style
     margin-top: 150px;
 }
 .banner-image img{
-    width: 85%;
+    width: 580px;
 }
 .btn-link{
     background-color:#E02C6D;
@@ -98,14 +98,143 @@ players profile style
 }
 
 /* product style */
- .heading{
+.heading{
     font-family: 'Rubik', sans-serif;
     text-align: center;
     font-size: 40px;
- }
- .star{
-     margin-top: 13px;
- }
- .star i{
-     color: gold;
- }
+}
+.star{
+    margin-top: 13px;
+}
+.star i{
+    color: gold;
+}
+
+
+
+/* our partner style  */
+.partner{
+    width: 100%;
+    background-color: rgb(250, 248, 248);
+
+}
+.all-partner{
+    width: 1250px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-gap: 30px;
+}
+ 
+.company img{
+    width: 100%;
+    padding: 20px;
+}
+
+
+
+
+
+/* footer style  */
+footer{
+    width: 100%;
+}
+.logo{
+    width: 700px;
+    margin: 60px auto;
+}
+.logo img{
+    width: 100%;
+}
+.social-icon{
+    width: 400px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.social-icon i{
+    color: gray;
+    font-size: 50px;
+}
+.copyright{
+    text-align: center;
+}
+
+
+
+
+
+
+/* media query */
+@media only screen and (max-width:500px){
+    .banner{
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .half-width{
+        width: 100%;
+    }
+    h1{
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .content{
+        width: 100%;
+        margin: 0;
+        padding: 50px;
+    }
+    .banner-image img{
+        width: 90%;
+    }
+
+
+
+    .container, .product{
+        width: 100%;
+    }
+    .palyers, .items{
+        width: 90%;
+        margin: 0px auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+    }
+    .player, .item{
+        height: auto;
+    }
+
+
+
+
+
+
+    .partner{
+        width: 100%;
+    }
+    .all-partner{
+        width: 90%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .company img{
+        padding: 10px;
+    }
+
+
+
+
+    .logo{
+        width: 100%;
+    }
+    .logo img{
+        width: 90%;
+    }
+    .social-icon{
+        width: 60%;
+    }
+
+    
+}
