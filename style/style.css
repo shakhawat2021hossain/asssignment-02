@@ -14,6 +14,7 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 header, section{
     margin-bottom: 100px;
@@ -198,10 +199,10 @@ footer{
     .content{
         width: 100%;
         margin: 0;
-        padding: 50px;
+        padding: 30px;
     }
     .banner-image img{
-        width: 90%;
+        width: 98%;
     }
 
 
